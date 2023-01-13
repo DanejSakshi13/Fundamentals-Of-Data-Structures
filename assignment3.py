@@ -1,8 +1,8 @@
-Write a Python program to compute following computation on matrix:
+"""Write a Python program to compute following computation on matrix:
 a) Addition of two matrices
 b) Subtraction of two matrices 
 c) Multiplication of two matrices
-d) Transpose of a matrix
+d) Transpose of a matrix"""
 
 row=int(input("Enter the no. of rows :"))
 col = int(input("Enter the no. of columns :"))
