@@ -25,5 +25,9 @@ d) Transpose of a matrix
 Assignment 4 : 
 a) Write a Python program to store names and mobile numbers of your friends in sorted order on names. Search your friend from list using binary search (recursive and non- recursive).Insert friend if not present in phonebook
 b) Write a Python program to store names and mobile numbers of your friends in sorted order on names. Search your friend from list using Fibonacci/Linear search. Insert friend if not present in phonebook.
+
+Assignmet 5: # Write a Python program to store first year percentage of students in array. Write function for sorting array of floating point numbers in ascending order using
+a) Selection Sort
+b) Bubble sort 
  
  
