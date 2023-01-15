@@ -1,8 +1,15 @@
 Write a Python program to store first year percentage of students in array. Write function for sorting array of floating point numbers in ascending order using
 a) Selection Sort
-b) Bubble sort 
+b) Bubble sort
 
-marks = [6.7,4.21,9.1,2.45,0,5.5]     #marks can be taken from user aswell
+n = int(input("Enter the number of students:"))
+marks = []
+for i in range(n):
+     print("Enter the marks :")
+     m = int(input())
+     marks.append(m)
+print("Marks :" , marks , end = " ")
+
 def selectionSort(marks):
     for i  in range(len(marks)):
         minIndex = i
