@@ -28,6 +28,10 @@ b) Write a Python program to store names and mobile numbers of your friends in s
 
 Assignmet 5: Write a Python program to store first year percentage of students in array. Write function for sorting array of floating point numbers in ascending order using
 a) Selection Sort
-b) Bubble sort 
+b) Bubble sort
+
+Assignment 6 : Write a Python program to store second year percentage of students in array. Write function for sorting array of floating point numbers in ascending order using
+a) Insertion sort
+b) Shell Sort 
  
  
