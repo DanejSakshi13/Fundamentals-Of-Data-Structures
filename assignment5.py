@@ -29,7 +29,7 @@ def bubbleSort(marks):
 
 ch=0
 while(ch!=3):
-    ch = int(input("\nEnter choice : "))
+    ch = int(input("\n1.Bubble Sort\n2.Selection Sort\n3.Exit\nEnter choice : "))
     if(ch==1):
         bubbleSort(marks)
         print("\nSorted array using bubble sort:" , marks)
