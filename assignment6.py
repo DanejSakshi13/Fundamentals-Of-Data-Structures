@@ -19,9 +19,6 @@ def insertion(marks):
             marks[j+1] = marks[j]
             j=j-1
             marks[j+1] = key
-insertion(marks)
-print("\nSorted array using insertion sort: " , marks)
-
 
 def shell(marks,n):
     n = len(marks)
@@ -38,6 +35,17 @@ def shell(marks,n):
                 i = i - gap
             j = j + 1
         gap = gap//2
-shell(marks,len(marks))
-print("Sorted array using shell sort:" , marks)
 
+ch=0
+while(ch!=3):
+    ch = int(input("Enter choice : "))
+    if(ch==1):
+          insertion(marks)
+          print("\nSorted array using insertion sort: " , marks)
+    elif (ch==2):
+          shell(marks,len(marks))
+          print("Sorted array using shell sort:" , marks)
+    elif (ch==3):
+        print("See you")
+    else:
+        break
