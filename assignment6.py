@@ -38,7 +38,7 @@ def shell(marks,n):
 
 ch=0
 while(ch!=3):
-    ch = int(input("Enter choice : "))
+    ch = int(input("\n1.Insertione Sort\n2.Shell Sort\n3.Exit\nEnter choice : "))
     if(ch==1):
           insertion(marks)
           print("\nSorted array using insertion sort: " , marks)
