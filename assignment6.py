@@ -46,6 +46,6 @@ while(ch!=3):
           shell(marks,len(marks))
           print("Sorted array using shell sort:" , marks)
     elif (ch==3):
-        print("See you")
+        print("\nExit.")
     else:
         break
