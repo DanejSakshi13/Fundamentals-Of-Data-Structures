@@ -39,6 +39,6 @@ Write C++ program to maintain club member‘s information using singly linked li
 a) Add and delete the members as well as president or even secretary.
 b) Compute total number of members of club
 c) Display members
-d) Two linked lists exists for two divisions. Concatenate two lists.*/
+d) Two linked lists exists for two divisions. Concatenate two lists.
  
  
