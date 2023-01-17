@@ -270,7 +270,7 @@ int main()
 			case 6: sll2.createMember();
 				sll1.concatenate(sll1,sll2);
 				break;
-			default: cout<<"\n Invalid choice ! ";
+			default: cout<<"\n Invalid choice. ";
 				break;
 		}
 		cout<<"\n\n Do you wish to continue ? (y/n) ";
