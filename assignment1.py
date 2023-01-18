@@ -6,9 +6,9 @@ b) Highest score and lowest score of class
 c) Count of students who were absent for the test
 d) Display mark with highest frequency"""
 
+#taking marks as user input
 print("Enter the number of students")
 n = int(input())
-
 marks = []
 print("Enter the marks of student...(Enter -1 for absent students)")
 for i in range(n):
@@ -17,7 +17,7 @@ for i in range(n):
 
 print("The list of students' score is: ", marks)
 
-
+#to calculate average marks
 def avg_score():
     total = 0
     for i in range(n):
@@ -27,7 +27,7 @@ def avg_score():
     print("Total marks are: ", total)
     print("Average marks are: ", total / len(marks))
 
-
+#to find maximum and minimum marks
 def max_min():
     maxi = marks[0]
     for i in range(n):
@@ -42,17 +42,15 @@ def max_min():
                 mini = marks[i]
     print("Minimun marks obtained are: ", mini)
 
-
+#to count number of absent students
 def absent():
     cnt = 0
     for i in range(n):
         if (marks[i] == -1):
             cnt = cnt + 1
     print("The number of absent students are: ", cnt)
-
-
-
-
+    
+#to find marks with highest frequency
 def high_freq():
     maxf = 0
     temp = marks[0]
