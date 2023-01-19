@@ -1,12 +1,12 @@
  """Write a Python program to compute following operations on
  String:
  a) To display word with the longest length
- b) To determines the frequency of occurrence of particular
- character in the string
+ b) To determines the frequency of occurrence of particular character in the string
  c) To check whether given string is palindrome or not
  d) To display index of first appearance of the substring
  e) To count the occurrences of each word in a given string"""
 
+ #to determine the longest word in the given string
 def long_word(word):
     long = 0
     num = -1
@@ -17,11 +17,11 @@ def long_word(word):
             ind = num
     print(word[ind])
 
-
+#to determine the frequency of character 'c' in the given string
 def frequency(string, c):
     print(c, "occurs", string.count(c), "times in", string)
 
-
+#to check whether the entered string is a palindrome or not
 def palindrome(word):
     li = "".join(word)
     rev = li[::-1]
@@ -30,14 +30,14 @@ def palindrome(word):
     else:
         print("\nString is NOT a palindrome")
 
-
+#to determine the first index of desired character or substring
 def first_ind(string, subs):
     if subs in string:
         print(subs, "occurs at", string.index(subs), "index")
     else:
         print(subs, "not present")
 
-
+#to determine how many times each word in the string occurs
 def occ_words(word):
     ind = -1
     for i in word:
