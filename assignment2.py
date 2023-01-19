@@ -6,7 +6,7 @@
  d) To display index of first appearance of the substring
  e) To count the occurrences of each word in a given string"""
 
- #to determine the longest word in the given string
+#to determine the longest word in the given string
 def long_word(word):
     long = 0
     num = -1
