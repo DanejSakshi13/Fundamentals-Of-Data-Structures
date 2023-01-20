@@ -1,4 +1,4 @@
-"""Write a Python program to compute following computation on matrix:
+"""Write a Python program to compute the following computation on matrix:
 a) Addition of two matrices
 b) Subtraction of two matrices 
 c) Multiplication of two matrices
