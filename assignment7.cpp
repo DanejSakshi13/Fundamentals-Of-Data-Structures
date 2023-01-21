@@ -220,7 +220,7 @@ void list::count()
 		cnt++;
 		ptr=ptr->next;
 	}
-	cout<<"\n Total no. of members are : "<<cnt;
+	cout<<"\nTotal no. of members are : "<<cnt;
 }
 void list::reverse(node *ptr)
 {
