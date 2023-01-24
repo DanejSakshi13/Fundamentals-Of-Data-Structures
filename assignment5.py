@@ -1,4 +1,4 @@
-"""Write a Python program to store first year percentage of students in an array. Write function for sorting array of floating point numbers in ascending order using
+"""Write a Python program to store first year percentage of students in an array. Write a function for sorting an array of floating point numbers in ascending order using
 a) Selection Sort
 b) Bubble sort"""
 
