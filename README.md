@@ -35,7 +35,7 @@ a) Selection Sort
 b) Bubble sort
 
 Assignment 6 : 
-Write a Python program to store second year percentage of students in array. Write function for sorting array of floating point numbers in ascending order using
+Write a Python program to store second year percentage of students in an array. Write a function for sorting an array of floating point numbers in ascending order using
 a) Insertion sort
 b) Shell Sort 
 
