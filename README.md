@@ -47,4 +47,8 @@ b) Compute total number of members of club
 c) Display members
 d) Two linked lists exists for two divisions. Concatenate two lists.
  
+Assignment 8: 
+Write C++ program for storing binary number using doubly linked lists. Write functions-
+a) To compute 1‘s and 2‘s complement
+b) Add two binary numbers
  
