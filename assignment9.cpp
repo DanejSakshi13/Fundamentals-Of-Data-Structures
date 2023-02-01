@@ -28,6 +28,7 @@ public:
     void displayReverse(); 
 };
 
+//input string
 void stack:: getString(){
 cout<<"Enter the string : ";
 cin.getline(str , MAX);
@@ -50,6 +51,7 @@ void stack::extractString(){
     length=j;
 }
 
+//function to check palindrome
 void stack::checkPalindrome(){
     for(int i=0;i<length;i++){
         pushData(str[i]);
@@ -66,6 +68,7 @@ void stack::checkPalindrome(){
     }
 }
 
+//string reversal
 void stack::displayReverse(){
     cout<<"Reversed string is :";
     for(int i = length-1 ; i>=0 ; i--){
