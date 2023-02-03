@@ -59,3 +59,9 @@ check for a palindrome is to reverse the characters in the string and then compa
 Write C++ program with functions-
 a) To print original string followed by reversed string using stack
 b) To check whether given string is palindrome or not
+
+Assignment 10 :
+Implement C++ program for expression conversion as infix to postfix and its evaluation using stack based on given conditions:
+1. Operands and operator, both must be single character.
+2. Input Postfix expression must be in a desired format.
+Only +,-,*,/ operators are expected.
