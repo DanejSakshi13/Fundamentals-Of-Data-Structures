@@ -1,7 +1,7 @@
 # Data-Structures-Laboratory
 ### Data structures laboratory practical assignment solutions.
-[SPPU - 2019 pattern]
-#### *Second Year of Computer Engineering*
+#### [SPPU - 2019 pattern]
+### *Second Year of Computer Engineering*
 
 #### Assignment 1 : 
 Write a Python program to store marks scored in subject “Fundamental of Data Structure” by N students in the class. Write functions to compute following:
