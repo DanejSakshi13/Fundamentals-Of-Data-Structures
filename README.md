@@ -71,3 +71,6 @@ Queues are frequently used in computer programming, and a typical example is the
 
 #### Assignment 12 :
 Pizza parlor accepting maximum M orders. Orders are served in first come first served basis. Order once placed cannot be cancelled. Write C++ program to simulate the system using circular queue using array.
+
+#### Assignment 13 :
+A double-ended queue (deque) is a linear list in which additions and deletions may be made at either end. Obtain a data representation mapping a deque into a one- dimensional array. Write C++ program to simulate deque with functions to add and delete elements from either end of the deque.
